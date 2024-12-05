@@ -1,0 +1,3 @@
+# JavaScript Type Coercion Bug
+
+This example demonstrates a common error in JavaScript caused by loose typing and type coercion in arithmetic operations.  The `+` operator behaves differently depending on the types of operands. When one operand is a string, it performs string concatenation, leading to unexpected results.  The solution emphasizes using strict equality checks and explicit type conversions to prevent such issues. 
